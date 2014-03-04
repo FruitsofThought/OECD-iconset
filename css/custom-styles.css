@@ -1,0 +1,158 @@
+/*!
+ */
+
+#wrap {
+    height: auto !important;
+    margin: 0 auto -60px;
+    min-height: 100%;
+    position: relative;
+}
+.container:before, .container:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.container:after {
+    clear: both;
+}
+.container:before, .container:after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+#wrap > .container {
+    padding-top: 20px;
+}
+#wrap > .container.about {
+    padding-top: 80px;
+}
+ul.navbar-nav{
+    margin-left: 50px;
+}
+.navbar-fixed-top {
+    border-width: 0;
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #000000;
+}
+
+.jumbotron {
+    padding: 100px 190px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+.jumbotron.mini {
+    padding: 80px 190px;
+    text-align: left;
+}
+.jumbotron h1 {
+    font-size: 72px;
+    line-height: 1;
+    text-shadow: 4px 3px 0 #1A1A1A, 9px 8px 0 rgba(0, 0, 0, 100.0)
+}
+blockquote{
+   margin: 0;
+   width: 20%;
+   float: right;
+}
+#iconset{
+    display: inline-block;
+    width: 100%;
+}
+li{
+list-style: none;
+}
+#iconset .icon{
+    float: left;
+    margin: 15px;
+    max-width: 50px;
+    max-height:50px;
+-webkit-transition: background-color 0.25s ease;
+-moz-transition: background-color 0.25s ease;
+-ms-transition: background-color 0.25s ease;
+-o-transition: background-color 0.25s ease;
+transition: background-color 0.25s ease;
+}
+#iconset img {
+  color: #4e4e4e;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  padding: 5px;
+}
+#iconset img:hover{
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+.row {
+    margin: 20px 0 30px;
+    display: table;
+}
+.img-circle{
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(50%);  
+}
+.featurette img{
+    float: left;
+}
+.downloadteam {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    width: 67%;
+}
+.downloadteam p{
+    margin-top: 10px;
+    font-style: italic;
+}
+.col-lg-4{ text-align: center;}
+
+#footer {
+    border-top: 1px solid #F5F5F5;
+}
+#footer > .container {
+    padding: 20px 15px;
+}
+
+.back-to-top {
+    float: right !important;
+}
+.fa {
+    font-size: 3em;
+    opacity: 0.3;
+    padding: 1em;
+}
+#footer .social-icons a .fa{
+     font-size: 2em;
+     opacity: 1;
+     padding: .2em;
+}
+.social-icons{
+    clear: right;
+    float: right;
+}
+
+.page-space{
+          min-height: 300px;;
+}
+
+.dl-pngs{
+   float: left;
+}
+button{
+     margin: 0 5px;     
+}
+.tooltip{delay: { show: 500, hide: 100 }
+}
+/*
+ * Custom styles to OECD icons site @twitter by @joysofeve.
+ */
